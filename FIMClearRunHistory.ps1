@@ -19,7 +19,7 @@
 	.Notes
 	NAME:  FIMClearRunHistory
 	AUTHOR: Peter Stapf
-	LASTEDIT: 20.01.2015
+	LASTEDIT: 20.01.2016
 	KEYWORDS: FIM 2010, Run History, Management Agent
 
 	#Requires -Version 2.0
