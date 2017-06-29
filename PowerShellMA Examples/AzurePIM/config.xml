@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AzurePIM>
+    <TenantName>tenantname.onmicrosoft.com</TenantName>
+    
+    <!-- Accounts for which MIM should not manage PIM and AAD role assignments, these users must be managed in Azure -->
+    <ExcludedUsers>
+        <user objectid="b40a3741-xxxx-yyyy-945e-5078b658e8e8" upn="admin1@tenantname.onmicrosoft.com" />
+        <user objectid="c44eebcd-xxxx-yyyy-aaa1-6de68e52a65c" upn="admin2@tenantname.onmicrosoft.com" />
+    </ExcludedUsers>
+</AzurePIM>
+
+
