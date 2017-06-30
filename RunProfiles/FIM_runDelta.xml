@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<runcycle computerName="." cycleWaitSeconds="15" numOfExecs="1" logFile=".\runDelta.log">
+  <MA profile="default" checkUpdates="false">
+    <name>SourceAD</name>
+    <preScript />
+    <profilesToRun>DISO</profilesToRun>
+    <profilesToRun>DS</profilesToRun>
+    <waitSeconds>1</waitSeconds>
+    <postScript />
+  </MA>
+  <MA profile="default" checkUpdates="false">
+    <name>DestinationAD</name>
+    <preScript />
+    <profilesToRun>DISO</profilesToRun>
+    <profilesToRun>DS</profilesToRun>
+    <waitSeconds>1</waitSeconds>
+    <postScript />
+  </MA>
+  <MA profile="default" checkUpdates="false">	
+	<name>DestinationAD</name>
+	<preScript />
+	<profilesToRun>E</profilesToRun>
+	<profilesToRun>DISO</profilesToRun>
+	<postScript />
+	<waitSeconds>1</waitSeconds>
+  </MA>
+</runcycle>
