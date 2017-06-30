@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<azureRoles logFile="C:\_scripts\AzureRoles\RoleAdmin.log">
+	<managedRoles>
+		<Role ADGroupName="Group_Azure_Billing_Administrator" AzureADRoleName="Billing Administrator" />
+		<Role ADGroupName="Group_Azure_Company_Administrator" AzureADRoleName="Company Administrator" />
+        <Role ADGroupName="Group_Azure_Customer_LockBox_Access_Approver" AzureADRoleName="Customer LockBox Access Approver" />
+        <Role ADGroupName="Group_Azure_Exchange_Service_Administrator" AzureADRoleName="Exchange Service Administrator" />
+        <Role ADGroupName="Group_Azure_Privileged_Role_Administrator" AzureADRoleName="Privileged Role Administrator" />
+        <Role ADGroupName="Group_Azure_Service_Support_Administrator" AzureADRoleName="Service Support Administrator" />
+        <Role ADGroupName="Group_Azure_SharePoint_Service_Administrator" AzureADRoleName="SharePoint Service Administrator" />
+        <Role ADGroupName="Group_Azure_Helpdesk_Administrator" AzureADRoleName="Helpdesk Administrator" />
+        <Role ADGroupName="Group_Azure_Directory_Readers" AzureADRoleName="Directory Readers" />
+        <Role ADGroupName="Group_Azure_Lync_Service_Administrator" AzureADRoleName="Lync Service Administrator" />
+        <Role ADGroupName="Group_Azure_User_Account_Administrator" AzureADRoleName="User Account Administrator" />
+        <Role ADGroupName="Group_Azure_Directory_Writers" AzureADRoleName="Directory Writers" />
+        <Role ADGroupName="Group_Azure_Device_Users" AzureADRoleName="Device Users" />
+        <Role ADGroupName="Group_Azure_Device_Administrators" AzureADRoleName="Device Administrators" />
+        <Role ADGroupName="Group_Azure_Device_Join" AzureADRoleName="Device Join" />
+        <Role ADGroupName="Group_Azure_Workplace_Device_Join" AzureADRoleName="Workplace Device Join" />
+        <Role ADGroupName="Group_Azure_Compliance_Administrator" AzureADRoleName="Compliance Administrator" />
+        <Role ADGroupName="Group_Azure_Device_Managers" AzureADRoleName="Device Managers" />
+        <Role ADGroupName="Group_Azure_Directory_Synchronization_Accounts" AzureADRoleName="Directory Synchronization Accounts" />
+        <Role ADGroupName="Group_Azure_Application_Administrator" AzureADRoleName="Application Administrator" />
+        <Role ADGroupName="Group_Azure_Application_Developer" AzureADRoleName="Application Developer" />
+        <Role ADGroupName="Group_Azure_Security_Reader" AzureADRoleName="Security Reader" />
+        <Role ADGroupName="Group_Azure_Security_Administrator" AzureADRoleName="Security Administrator" />
+        <Role ADGroupName="Group_Azure_Intune_Service_Administrator" AzureADRoleName="Intune Service Administrator" />
+        <Role ADGroupName="Group_Azure_Application_Proxy_Service_Administrator" AzureADRoleName="Application Proxy Service Administrator" />
+        <Role ADGroupName="Group_Azure_CRM_Service_Administrator" AzureADRoleName="CRM Service Administrator" />
+	</managedRoles>
+
+    <!-- these members will not be managed by the script, at least .onmicrosoft.com accounts must be listed, please be aware that the mail addresses are case sensitive -->
+	<ignoreMemberList>
+        <memberName>admin1@tenantname.onmicrosoft.com</memberName>
+        <memberName>svcAccount@tenantname.onmicrosoft.com</memberName>
+	</ignoreMemberList>
+</azureRoles>
