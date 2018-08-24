@@ -7,6 +7,7 @@ param($objectType, $attribute, $searchValue)
 #ex. Get-FIMRequestDetails.ps1 -objectType "Person" -attribute "AccountName" -searchValue "pstapf"
 #
 #This gets all requests matching the given target object.
+#
 
 # Load FIMAutomation SnapIn and FIMPowershellModule (http://fimpowershellmodule.codeplex.com)
 if(@(get-pssnapin | where-object {$_.Name -eq "FIMAutomation"} ).count -eq 0) {add-pssnapin FIMAutomation}

@@ -1,6 +1,5 @@
 ﻿# Getting a list of all Azure PIM roles by Microsoft Graph API
 # Used to setup onPremises AD groups for Azure AD PIM PowerShell Connector for MIM 2016
-#
 
 # Get this DLL from Windows Azure SDK or Azure AD Connect Folder
 Add-Type -Path 'C:\PSMA\AzurePIM\Microsoft.IdentityModel.Clients.ActiveDirectory.dll'

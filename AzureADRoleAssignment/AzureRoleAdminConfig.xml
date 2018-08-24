@@ -31,7 +31,7 @@
 
     <!-- these members will not be managed by the script, at least .onmicrosoft.com accounts must be listed, please be aware that the mail addresses are case sensitive -->
 	<ignoreMemberList>
-        <memberName>admin1@tenantname.onmicrosoft.com</memberName>
-        <memberName>svcAccount@tenantname.onmicrosoft.com</memberName>
+        <memberName>admin1@domain.onmicrosoft.com</memberName>
+        <memberName>svcAccount@domain.onmicrosoft.com</memberName>
 	</ignoreMemberList>
 </azureRoles>
